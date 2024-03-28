@@ -1,11 +1,14 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+
 function App() {
-  return (
-    <div >
-      <Navbar />
-    </div>
-  );
+    return (
+        <div>
+            <Navbar/>
+            <Hero/>
+        </div>
+    );
 }
 
 export default App;
